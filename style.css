@@ -65,6 +65,20 @@ button {
     text-align: center;
 }
 
+.ticket-link {
+    margin-top: 1.5em;
+}
+
+.ticket-link a {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
 #relative-day-display {
     margin-left: 1em;
     font-size: 1.2em;
