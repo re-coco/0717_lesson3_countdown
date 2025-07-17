@@ -32,10 +32,26 @@ body {
 }
 
 button {
-    border: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: none;
     font-size: 2em;
     cursor: pointer;
+}
+
+#jump-to-today {
+    margin-bottom: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    width: auto;
+    height: auto;
 }
 
 #countdown {
