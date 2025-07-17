@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('0831_Zoom_QR_1.png');
+    background-image: url('壁紙　PC.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 2em;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -52,6 +52,22 @@ button {
     font-size: 1em;
     width: auto;
     height: auto;
+}
+
+.today-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.relative-day {
+    width: 60px; /* Adjust width as needed */
+    text-align: center;
+}
+
+#relative-day-display {
+    margin-left: 1em;
+    font-size: 1.2em;
 }
 
 #countdown {
