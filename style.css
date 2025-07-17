@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('0831_Zoom_QR_1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.date-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#current-date {
+    margin: 0 1em;
+    font-size: 1.5em;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#countdown {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.qr-code {
+    margin-top: 1em;
+}
+
+.qr-code img {
+    max-width: 100px;
+}
